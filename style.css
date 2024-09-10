@@ -1,0 +1,190 @@
+@font-face {
+    font-family: product;
+    src: url(./ProductSans-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: product;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+}
+nav{
+    position: fixed;
+    padding: 0vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    z-index: 99;
+   
+}
+nav a,i{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1vw;
+    text-decoration: none;
+}
+.centernav{
+    display: flex;
+    gap: 3vw;
+}
+nav i{
+    font-size: 1.5vw;
+}
+/*ONE*/
+.one{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg,rgb(255,153,0), rgb(255, 94, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fanta{
+    position: absolute;
+width: 40%;
+z-index: 2;
+transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+.one h1{
+    font-size: 26vw;
+    font-family: product;
+    color: #fff;
+}
+#slice{
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 32%;
+    z-index: 1;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#piece{
+    position: absolute;
+    width: 15%;
+    z-index: 3;
+    top:55%;
+    right: 30%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#leaf{
+    top: 10%;
+    left: 0%;
+    transform: rotate(60deg);
+    position: absolute;
+    width: 18%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#leaf2{
+    top: 70%;
+    left: 80%;
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 12%;
+}
+#leaf3{
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+}
+/*TWO*/
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+}
+.leftside,.rightside{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    background-color: #4d231c;
+}
+.leftside svg{
+    margin-top: 50vh;
+    width: 90%;
+    transform: rotateX(50deg);
+}
+.rightside h1{
+    font-size:5vw ;
+    color: #fff;
+}
+.rightside p{
+    font-size: 1vw;
+    color: #fff;
+    width: 80%;
+}
+.three{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg,rgb(255,153,0), rgb(255, 94, 0));
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2vh;
+    width: 25vw;
+    height: 70vh;
+    margin-top:10vh ;
+    border-radius: 20px;
+    background: #fff;  
+}
+.card h1{
+    margin-top: 40vh;
+    font-size: 3vw;
+}
+
+.card button{
+    color: #fff;
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 150, 3);
+    padding: 1vw 2vw;
+}
+#cocacoladrink{
+    top: 15%;
+    width: 13%;
+    position: absolute;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#fantadrink{
+    top: 18%;
+    width: 30%;
+    position: absolute;
+}
+#pepsidrink{
+    top: 10%;
+    width: 20%;
+    position: absolute;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#lemon{
+    width: 25vw;
+    top: 0%;
+    position: absolute;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
