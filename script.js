@@ -35,16 +35,15 @@ var t2=gsap.timeline({scrollTrigger:{
     scrub:true,
     //markers:true,
 }})
-t2.to("#slice",{
-    top:"205%",
-    left:"41%",
-    width: "20vw",
-},"fan")
+t2.to("#fanta", {
+    top: "270%",
+    left: "17%",
+}, "ca")
 
-t2.to("#fanta",{
-    top:"218%",
-    left:"35%",
-    width:"32%",
-},"fan")
+t2.to("#slice", {
+    top: "260%",
+    left: "34%",
+    rotation: "360"
+}, "ca")
 
 // project complete
